@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia Rich Webpage</title>
+</head>
+<body>
+    <h1>Welcome to My Multimedia Webpage</h1>
+    
+    <!-- Embedded Video -->
+    <h2>Watch This Video on How to install QuickBooks</h2>
+    <video width="600" controls>
+        <source src="Video/Beginners Tutorials » How To Install QuickBooks Premier Accountant 2021 UK Edition Without Errors.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <!-- Embedded Audio -->
+    <h2>Listen to This Audio</h2>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <!-- Registration Form with Validation -->
+    <h2>Register Here</h2>
+    <form action="register.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required minlength="6"><br><br>
+        
+        <input type="submit" value="Register">
+    </form>
+    
+    <!-- Embedded Image -->
+    <h2>Embedded Image</h2>
+    <p>This is the W12 wold winning Mercedes AMG Formula 1 car</p>
+    <img src="Image/F1.jfif" alt="Sample Image" width="400">
+    
+    <!-- Table -->
+    <h2>Sample Data Table</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>30</td>
+            <td>New York</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>25</td>
+            <td>Los Angeles</td>
+        </tr>
+    </table>
+    
+    <!-- Lists -->
+    <h2>Ordered List</h2>
+    <ol>
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+    </ol>
+    
+    <h2>Unordered List</h2>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cherry</li>
+    </ul>
+</body>
+</html>
